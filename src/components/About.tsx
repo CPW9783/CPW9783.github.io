@@ -17,24 +17,24 @@ const About: React.FC = () => {
             <img src={photo} alt="Christopher West" width={400} className="hidden xl:block mr-20 2xl:w-[300px] 3xl:w-[400px] flex-shrink-0" />
             <div className="flex flex-col space-y-7">
               <p className="text-lg max-w-5xl">
-                Hello, I'm Christopher West, a fourth-year Software Engineering student at RIT. I was recently a Software Engineering Co-op at <a
-                  href="https://www.precisionot.com/"
+                Hello, I'm Christopher West, a senior Software Engineering student at RIT. I've interned as a Software Engineer at <a href="https://www.travelers.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-[#A5BADA] hover:underline">Precision Optical Technologies</a> and previously interned as a Software Engineer at 
-                <a href="https://www.ridgelineintl.com/"
+                  className="font-bold text-[#A5BADA] hover:underline">Travelers</a>, <a href="https://www.precisionot.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-[#A5BADA] hover:underline"> Ridgeline International</a>
-                , where I worked as a full-stack developer at both companies. 
-                On campus, I serve as the president of the <a href="https://www.rit.edu/computing/coms/"
+                  className="font-bold text-[#A5BADA] hover:underline">Precision Optical Technologies</a>, and <a href="https://www.ridgelineintl.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-[#A5BADA] hover:underline">Ridgeline International</a>. 
+                On campus, I'm an active member of the <a href="https://www.rit.edu/computing/coms/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-bold text-[#A5BADA] hover:underline">Computer Organization for Multicultural Students (COMS)</a> and play bass as part of the band BIRCH. 
                 In my free time, I also enjoy cooking, gaming, working out, music, and traveling. 
-                Thanks for visiting, I hope you enjoy exploring my site and the skills and projects I’ve developed along the way!
+                Thanks for visiting, I hope you enjoy exploring my site and the skills and projects I've developed along the way!
               </p>
-              <a href="/resume.pdf" download className="self-center">
+              <a href="/Christopher_West_Resume.pdf" download className="self-center">
                 <button className="inline-flex items-center w-auto px-4 py-2 bg-[#3A5B70] rounded hover:bg-blue-700 transition">
                   <FiDownload className="mr-2 h-5 w-5" />
                   Resume
